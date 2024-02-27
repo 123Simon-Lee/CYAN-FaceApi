@@ -52,7 +52,6 @@ bool SocketClient::SocketCreate()
                     if (connect(sockClient, (sockaddr*)&si, sizeof(si)) == SOCKET_ERROR)
                     {
                         printf("connect failed!\r\n");
-                        //¡¨Ω” ß∞‹
                         Close();
                         connected = false;
                         return connected;
@@ -80,7 +79,7 @@ bool SocketClient::SocketCreate()
                 if (connect(sockClient, (sockaddr*)&si, sizeof(si)) == SOCKET_ERROR)
                 {
                     printf("connect failed!\r\n");
-                    //¡¨Ω” ß∞‹
+                    //√Å¬¨¬Ω√ì√ä¬ß¬∞√ú
                     Close();
                     connected = false;
                     return connected;
