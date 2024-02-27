@@ -22,9 +22,9 @@ int main()
             }
             else
             {
-                // 连接失败，等待一段时间后重新连接
+               
                 std::cout << "connect failed, retry after 5 seconds..." << std::endl;
-                Sleep(5000); // 等待 5 秒
+                Sleep(5000); 
             }
 
         }
