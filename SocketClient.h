@@ -2,7 +2,7 @@
 #pragma warning(disable:4996)
 #pragma comment(lib, "Ws2_32.lib")
 #define WIN32_LEAN_AND_MEAN
-#define SERVER_PORT 8065	//¶Ë¿ÚºÅ
+#define SERVER_PORT 8061	
 #include <iostream>
 #include"sys/types.h"
 #include <windows.h>
